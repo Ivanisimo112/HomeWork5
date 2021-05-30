@@ -34,6 +34,5 @@ public class Main {
         System.out.println(parallelepiped3.capacity());
         System.out.println(parallelepiped3.basePerimeter());
         System.out.println(parallelepiped3.surfaceArea());
-
     }
 }

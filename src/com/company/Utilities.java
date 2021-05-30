@@ -22,7 +22,7 @@ public class Utilities {
         return point2.getZ() - point1.getZ();
     }
 
-    static public double   heightInclinedParallelepiped(Angle angle, int aa1) {
+    static public double heightInclinedParallelepiped(Angle angle, int aa1) {
         return Math.sin(angle.fromDegreesToRadians()) * aa1;
     }
 

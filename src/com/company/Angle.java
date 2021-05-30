@@ -6,7 +6,8 @@ public class Angle {
     public Angle(int rad) {
         this.deg = rad;
     }
-    public double fromDegreesToRadians(){
+
+    public double fromDegreesToRadians() {
         return (deg * Math.PI / 180);
     }
 }
