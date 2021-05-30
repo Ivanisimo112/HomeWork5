@@ -48,7 +48,7 @@ public class Parallelepiped {
         }
     }
 
-    public double parallelepipedHeight() {
+    public double  parallelepipedHeight() {
         if (i == 1) {
             return Utilities.lengthBetweenZ(a, a1);
         }
